@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.phone-picture {
+  height: 540px;
+  width: 550px;
+  object-fit: contain;
+}
+
+.phone-name {
+  padding: 16px;
+  font-size: 48px;
+  margin-bottom: 0px;
+}
+
+.phone-company {
+  font-size: 32px;
+  color: grey;
+  margin-top: 0px;
+}
+.phone-container {
+  background-color: white;
+  width: 550px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+}
+body {
+  background-color: whitesmoke;
+  font-family: Roboto;
+  margin: 16px;
+}
+.phone-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
